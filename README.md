@@ -41,7 +41,7 @@ Once the services are running, you can verify the setup by sending a test reques
 
 Run the following command in your terminal:
 ```bash
-   curl -X POST http://localhost:8081/api/notifications/send \
+   curl -X POST http://localhost:8081/api/notification \
    -H "Content-Type: application/json" \
    -d '{
    "id": "1",
